@@ -33,3 +33,5 @@ This was the first board I designed with the philosophy that **the hardware itse
 ![MotorGo Mini PCB layout](../../images/mini-pcb.png)
 
 ![MotorGo Mini assembled](../../images/mini-assembled.png)
+
+[View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo-mini-hardware%2Ftree%2Fmain%2Fmini_motor_go%2FV1_rev3)

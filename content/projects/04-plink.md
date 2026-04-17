@@ -40,3 +40,5 @@ The Plink also has a companion [web control app](https://github.com/Every-Flavor
 ![Plink dimensions](../../images/plink-dimensions.png)
 
 ![Plink 3D render](../../images/plink-3d.png)
+
+[View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo-plink-hardware%2Ftree%2Fmain%2Fmotorgo_plink)

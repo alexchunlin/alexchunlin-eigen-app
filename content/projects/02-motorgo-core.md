@@ -16,3 +16,5 @@ A versatile motor controller board designed for projects that need precise, repe
 - **Robot Etch A Sketch** — Demonstrated at Open Sauce, drawing precise patterns with dual motor coordination
 - Built for rapid prototyping of motor-driven projects
 - Stepping stone from the Mini's single-motor design toward multi-axis control
+
+[View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo_axis_hardware%2Ftree%2Fmain%2Fmotorgo_core)

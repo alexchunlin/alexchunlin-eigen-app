@@ -32,3 +32,5 @@ Research groups need hardware that **gets out of the way**. The Gimbus lets rese
 - Associated project won the LAVAL Prize (Europe)
 
 ![Gimbus exploded view with motor](../../images/gimbus-exploded.png)
+
+[View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo-mini-hardware%2Ftree%2Fmotorgo-gimbus%2Fmotorgo-gimbus%2Fgimbus-kicad%2Fmg-gimbus)

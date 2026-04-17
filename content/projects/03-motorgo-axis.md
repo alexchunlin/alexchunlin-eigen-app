@@ -32,3 +32,5 @@ This is where the "no cliffs" philosophy really shows. Start with Arduino-style 
 Check out this 2-axis gantry robot project built while developing the Axis: [YouTube Demo](https://www.youtube.com/watch?v=p4cUWCG7fM4)
 
 ![MotorGo Axis dimensions](../../images/axis-dimensions.png)
+
+[View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo_axis_hardware%2Ftree%2Fmain%2Fmotorgo_core)

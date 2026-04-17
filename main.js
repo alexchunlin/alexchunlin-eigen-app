@@ -69,6 +69,15 @@ async function loadProjects() {
     .map(result => renderProjectEntry(result))
     .join('');
 
+  // Tag KiCanvas links with a special class for button styling
+  container.querySelectorAll('.project-card-body a').forEach(a => {
+    if (a.textContent.includes('KiCanvas')) {
+      a.classList.add('kicanvas-link');
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+    }
+  });
+
   // Observe cards for scroll-in animation
   observeCards();
 }

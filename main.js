@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     loadAbout(),
     loadProjects(),
   ]);
+  observeGallery();
 });
 
 // ── Navigation: glassmorphism on scroll ──────────────────────
@@ -195,6 +196,30 @@ function renderProjectEntry({ text, index, file, error }) {
       </div>
     </div>
   `;
+}
+
+// ── Scroll-triggered gallery reveal ──────────────────────────
+
+function observeGallery() {
+  const items = document.querySelectorAll('.gallery-item');
+  if (!items.length) return;
+
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.08, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  items.forEach((item, i) => {
+    item.style.transitionDelay = `${i * 0.06}s`;
+    io.observe(item);
+  });
 }
 
 // ── Scroll-triggered card reveal ─────────────────────────────

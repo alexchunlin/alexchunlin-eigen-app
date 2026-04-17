@@ -5,7 +5,7 @@
 <!-- status: In use · Developed for Future Interfaces Group -->
 <!-- tags: ESP32-S3, DRV8316, FOC, CAN Bus, USB PD, Research, LAVAL Prize -->
 
-![Gimbus board render](../../images/gimbus-render.png)
+![Gimbus board render](images/gimbus-render.png)
 
 The Gimbus is a condensed, specialized version of the MotorGo Mini — a single-channel gimbal motor driver that mounts on the back of a gimbal and enables CAN bus communication between multiple boards. Developed for the **Future Interfaces Group**, a research lab whose work recently won the **LAVAL Prize** in Europe.
 
@@ -31,6 +31,6 @@ Research groups need hardware that **gets out of the way**. The Gimbus lets rese
 - Developed for Future Interfaces Group
 - Associated project won the LAVAL Prize (Europe)
 
-![Gimbus exploded view with motor](../../images/gimbus-exploded.png)
+![Gimbus exploded view with motor](images/gimbus-exploded.png)
 
 [View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo-mini-hardware%2Ftree%2Fmotorgo-gimbus%2Fmotorgo-gimbus%2Fgimbus-kicad%2Fmg-gimbus)

@@ -5,7 +5,7 @@
 <!-- status: In production · Used in CMU coursework -->
 <!-- tags: ESP32-S3, DC Motor, Pi HAT, IMU, Education, CMU -->
 
-![Plink board demo](../../images/plink-demo.gif)
+![Plink board demo](images/plink-demo.gif)
 
 The Plink is a 4-channel DC motor driver in the Pi HAT form factor, designed specifically for beginner roboticists. It's powered by an ESP32-S3 with WiFi and Bluetooth, and is used by Carnegie Mellon University's Introduction to Robotics class to teach robotics fundamentals.
 
@@ -37,8 +37,8 @@ The Plink also has a companion [web control app](https://github.com/Every-Flavor
 - Pi HAT form factor (also operates standalone)
 - Used in CMU's Introduction to Robotics course
 
-![Plink dimensions](../../images/plink-dimensions.png)
+![Plink dimensions](images/plink-dimensions.png)
 
-![Plink 3D render](../../images/plink-3d.png)
+![Plink 3D render](images/plink-3d.png)
 
 [View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo-plink-hardware%2Ftree%2Fmain%2Fmotorgo_plink)

@@ -5,7 +5,7 @@
 <!-- status: Shipped -->
 <!-- tags: Dual BLDC, Pi HAT, ESP32, FOC, RPi 4/5 -->
 
-![MotorGo Axis 3D render](../../images/axis-3d.png)
+![MotorGo Axis 3D render](images/axis-3d.png)
 
 The Axis is the upgraded Core — a dual BLDC motor controller on a single board that also works as a Raspberry Pi HAT for the RPi 4 and 5. It bridges the gap between standalone microcontroller projects and full Linux-powered robotics.
 
@@ -31,6 +31,6 @@ This is where the "no cliffs" philosophy really shows. Start with Arduino-style 
 
 Check out this 2-axis gantry robot project built while developing the Axis: [YouTube Demo](https://www.youtube.com/watch?v=p4cUWCG7fM4)
 
-![MotorGo Axis dimensions](../../images/axis-dimensions.png)
+![MotorGo Axis dimensions](images/axis-dimensions.png)
 
 [View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo_axis_hardware%2Ftree%2Fmain%2Fmotorgo_core)

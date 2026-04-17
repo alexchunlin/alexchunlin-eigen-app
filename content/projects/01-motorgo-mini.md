@@ -5,7 +5,7 @@
 <!-- status: Shipped · Kickstarter funded -->
 <!-- tags: ESP32, Dual BLDC, FOC, Qwiic, Open Source -->
 
-![MotorGo Mini board render](../../images/mini-render.png)
+![MotorGo Mini board render](images/mini-render.png)
 
 The MotorGo Mini is an ESP32-based dual-channel brushless motor controller with field-oriented control (FOC) — all on a single compact board. It launched as a small Kickstarter that combined motor control, power regulation, and wireless connectivity into one beginner-friendly package.
 
@@ -30,8 +30,8 @@ This was the first board I designed with the philosophy that **the hardware itse
 - Arduino compatible
 - Fully open source — BOM, copper, and code
 
-![MotorGo Mini PCB layout](../../images/mini-pcb.png)
+![MotorGo Mini PCB layout](images/mini-pcb.png)
 
-![MotorGo Mini assembled](../../images/mini-assembled.png)
+![MotorGo Mini assembled](images/mini-assembled.png)
 
 [View schematics and PCB in KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FEvery-Flavor-Robotics%2Fmotorgo-mini-hardware%2Ftree%2Fmain%2Fmini_motor_go%2FV1_rev3)

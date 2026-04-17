@@ -13,11 +13,15 @@ In short, I want to develop Open Source Hardware PCBs and Robotics solutions tha
 ## Philosophy
 My philosophy is built around my upbringing in the rural deep southern US.  The education system down south is spuradic, leaving a lot of the population in a disadvantaged position when trying to grow beyond what their small town can offer.  This is slowly being changed by the internet, though many places in the south are only just now reaching acceptable speeds of internet.
 
-### Robotics as a means of change
-I think people innately find happiness in changing their environment and community for the better.  Robotics could allow communities to take more control of their lives and grow their communities!  We live in a new age where community gardens could be automated, AI can help
-The ideal robotics ecosystem doesn't have "dumbed down" lines drawn in the sand. The learning path for a user shouldn't go over learning-curve cliffs as they transfer from intro to intermediate to advanced.  Growing up I always felt like I was fighting for educational resources, and it infuriated me that location and money was holding me back from learning about the world.  Now the internet has provided the ability to democratize education - but that doesn't mean it is democratized!  **WE have to put in the WORK to democratize it**
+### Where does robots come in? Robotics as a means of change
+I think people innately find happiness in changing their environment and community for the better.  Robotics could allow communities to take more control of their lives and grow their communities!  through robotics, we live in a new age where community gardens could be automated, insulin could be free and sourced in your neighborhood from an autonomous culture, clothes could be made and food could be cooked, not as a corporate service you subscribe to, but as a community robot that you pitch in to maintain!
+
+### A product won't solve this. To do this we need to know how to develop robots together and for ourselves. 
+The ideal robotics ecosystem doesn't have "dumbed down" lines drawn in the sand. The learning path for a user shouldn't go over learning-curve cliffs as they transfer from intro to intermediate to advanced.
 
 **Education should be built into the ecosystem** so that everyone can participate in building and learning together.
+
+Growing up I always felt like I was fighting for educational resources, and it infuriated me that location and money was holding me back from learning about the world.  Now the internet has provided the ability to democratize education - but that doesn't mean it is democratized!  **WE have to put in the WORK to democratize it**
 
 I've built many motor controllers, PCB projects, educational demos, and platforms to grow and sharpen this philosophy — from tiny Kickstarter boards to research tools used at Carnegie Mellon for robotics education, and I help my roboticist friends with their projects when they need hardware support and custom designs because they are a prime user case of people in need of more advanced features!!! 
 

@@ -181,6 +181,16 @@ ul, ol { list-style: none; }
   transform: scaleX(1);
 }
 
+.nav-link-yt {
+  color: var(--text-3);
+}
+.nav-link-yt:hover {
+  color: #ff0000;
+}
+.nav-link-yt::after {
+  background: #ff0000;
+}
+
 /* ─────────────────────────────────────────────
    HERO
 ───────────────────────────────────────────── */
@@ -411,6 +421,19 @@ ul, ol { list-style: none; }
 .prose li strong {
   font-weight: 600;
   color: var(--text-1);
+}
+
+.prose a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-light);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s;
+}
+
+.prose a:hover {
+  text-decoration-color: var(--accent);
 }
 
 .prose code {
@@ -723,6 +746,51 @@ ul, ol { list-style: none; }
 .project-card-body ul li strong {
   font-weight: 600;
   color: var(--text-1);
+}
+
+/* Images in project cards */
+.project-card-body img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 16px 0;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.3s var(--ease-out);
+}
+
+.project-card-body img:first-child {
+  margin-top: 0;
+}
+
+.project-card:hover .project-card-body img {
+  box-shadow: var(--shadow-md);
+}
+
+/* Hero image — first image before any heading */
+.project-hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  box-shadow: none;
+  margin: 0;
+  display: block;
+}
+
+/* Links in project cards */
+.project-card-body a {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-light);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s;
+}
+
+.project-card-body a:hover {
+  text-decoration-color: var(--accent);
 }
 
 /* ─────────────────────────────────────────────

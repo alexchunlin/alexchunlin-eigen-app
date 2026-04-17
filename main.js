@@ -97,14 +97,24 @@ function extractSubtitle(raw) {
   return m ? m[1].trim() : '';
 }
 
-// Strip title, subtitle line, and HTML comments — then parse
+// Extract the first image (used as hero image on the card)
+function extractHeroImage(raw) {
+  // Match the first ![alt](url) that appears after the title/subtitle/comments block
+  const m = raw.match(/^!\[([^\]]*)\]\(([^)]+)\)\s*$/m);
+  return m ? { alt: m[1], src: m[2] } : null;
+}
+
+// Strip title, subtitle line, HTML comments, and first image — then parse
 function extractBodyHtml(raw) {
   let cleaned = raw
     .replace(/<!--[\s\S]*?-->/g, '')         // remove comments
     .replace(/^#\s+.+$/m, '')                // remove first h1
-    .replace(/^\*\*[^*\n]+\*\*\s*$/m, '')   // remove bold subtitle
-    .trim();
-  return marked.parse(cleaned);
+    .replace(/^\*\*[^*\n]+\*\*\s*$/m, '');  // remove bold subtitle
+
+  // Remove the first image line (it becomes the hero image)
+  cleaned = cleaned.replace(/^!\[[^\]]*\]\([^)]+\)\s*$/m, '');
+
+  return marked.parse(cleaned.trim());
 }
 
 // ── Status badge helper ──────────────────────────────────────
@@ -131,12 +141,13 @@ function renderProjectEntry({ text, index, file, error }) {
       </div>`;
   }
 
-  const status   = extractStatus(text);
-  const tags     = extractTags(text);
-  const title    = extractTitle(text);
-  const subtitle = extractSubtitle(text);
-  const bodyHtml = extractBodyHtml(text);
-  const cls      = statusClass(status);
+  const status    = extractStatus(text);
+  const tags      = extractTags(text);
+  const title     = extractTitle(text);
+  const subtitle  = extractSubtitle(text);
+  const heroImg   = extractHeroImage(text);
+  const bodyHtml  = extractBodyHtml(text);
+  const cls       = statusClass(status);
 
   const badgeHtml = status
     ? `<span class="status-badge ${cls}">${status}</span>`
@@ -150,9 +161,14 @@ function renderProjectEntry({ text, index, file, error }) {
     ? `<p class="project-subtitle">${subtitle}</p>`
     : '';
 
+  const heroHtml = heroImg
+    ? `<img class="project-hero-img" src="${heroImg.src}" alt="${heroImg.alt}" loading="lazy" />`
+    : '';
+
   return `
     <div class="project-entry">
       <div class="project-card">
+        ${heroHtml}
         <div class="project-card-header">
           <span class="project-number">${num}</span>
           <div class="project-header-content">

@@ -8,7 +8,7 @@ I'm a mechanical engineer who specializes in assitive robotics (wheelchairs) and
 
 ## Philosophy
 My philosophy is built around my upbringing in the rural deep southern US.  The education system down south is spuradic, leaving a lot of
-The ideal robotics ecosystem doesn't have "dumbed down" lines drawn in the sand. The learning path for a user shouldn't go over learning-curve cliffs as they transfer from intro to intermediate to advanced.
+The ideal robotics ecosystem doesn't have "dumbed down" lines drawn in the sand. The learning path for a user shouldn't go over learning-curve cliffs as they transfer from intro to intermediate to advanced.  Growing up I always felt like I was fighting for educational resources, and it infuriated me that location and money was holding me back from learning about the world.  Now the internet has provided the ability to democratize education - but that doesn't mean it is democratized!  **WE have to put in the WORK to democratize it**
 
 **Education should be built into the ecosystem** so that everyone can participate in building and learning together.
 
